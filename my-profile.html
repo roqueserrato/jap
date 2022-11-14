@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eMercado - Todo lo que busques está aquí</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categories.html">Categorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sell.html">Vender</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="correo"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <section class="vh-100" style="background-color: #eee;">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-12 col-xl-11">
+            <div class="card text-black" style="border-radius: 25px;">
+              <div class="card-body p-md-5">
+                <div class="row justify-content-center">
+                  <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <img src="img/placeholder_pfp.png" style="height: 80px; width: 80px;"
+                        class="rounded-circle img-fluid ml-5" id="imagenActual">
+                      <p class="text-center h1 fw-bold mb-3 mx-1 mx-md-4 mt-4">Mi perfil</p>
+                    </div>
+
+                    <form id="formulario" class="">
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <div class="row">
+                          <div class="col">
+                            <input id="PrimerNombre" type="text" class="form-control" placeholder="Primer Nombre*"
+                              aria-label="Primer Nombre" required>
+                          </div>
+                          <div class="col">
+                            <input id="SegundoNombre" type="text" class="form-control" placeholder="Segundo Nombre"
+                              aria-label="Segundo Nombre">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <div class="row">
+                          <div class="col">
+                            <input id="PrimerApellido" type="text" class="form-control" placeholder="Primer Apellido*"
+                              aria-label="Primer Apellido" required>
+                          </div>
+                          <div class="col">
+                            <input id="SegundoApellido" type="text" class="form-control" placeholder="Segundo Apellido"
+                              aria-label="Segundo Apellido">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <div class="row">
+                          <div class="col">
+                            <input id="email" type="email" class="form-control" placeholder="e-mail*"
+                              aria-label="e-mail" required>
+                          </div>
+                          <div class="col">
+                            <input id="telefono" type="number" class="form-control" placeholder="Telefono"
+                              aria-label="Telefono">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <div class="input-group mr-5">
+                          <input type="file" class="form-control" id="inputGroupFile04">
+                        </div>
+                      </div>
+
+                      <div class="d-grid">
+                        <button id="guardarcambios" class="btn btn-primary mr-5" type="button">Guardar cambios</button>
+                      </div>
+                    </form>
+
+                  </div>
+                  <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                    <img src="img/samantha-gades-BlIhVfXbi9s-unsplash.jpg" style="border-radius: 25px;"
+                      class="img-fluid">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="text-muted bg-dark">
+    <div class="container">
+      <p class="float-end">
+        <a href="#">Volver arriba</a>
+      </p>
+      <p>Este e-commerce es falso</p>
+      <p></p>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/my-profile.js"></script>
+</body>
+
+</html>
